@@ -4,7 +4,7 @@ version = "0.0.1"
 dynamic = [
     "dependencies",
 ]
-description = "A marimo app to analyze chains  and produce plots interactively."
+description = "A marimo app to analyze chains and produce plots interactively."
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = [
@@ -26,7 +26,7 @@ classifiers = [
 ]
 
 [project.entry-points."console_scripts"]
-c_marimo = "c_marimo.cli:main"
+cmarimo = "c_marimo.cli:main"
 
 [project.optional-dependencies]
 all = [
